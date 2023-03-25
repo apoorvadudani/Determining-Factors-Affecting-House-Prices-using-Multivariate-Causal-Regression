@@ -8,11 +8,14 @@ The home sales detail data shows house characteristics of homes sold in Hillsbor
 
 ## Data analysis model selection and setup
 
-I build a multivariate causal regression to understand the variables that are important in determining sales prices, with the intent of forecasting prices for different types of houses.
+I first forecast time-series analysis 
 
-Please apply regression analysis techniques to conduct the analysis. Please use Microsoft Excel, enhanced with the Analysis ToolPak (ATP) add-in. If the add-in is not already installed, please use an online search tool such as Google.com to find the relevant Microsoft Support file with a title such as, “Load the Analysis ToolPak in Excel,” then follow the instructions given.
-  
-Please provide logical names for all variables. Please execute regression analysis using a 95% confidence level.
+I build a multivariate causal regression to understand the variables that are important in determining sales prices, with the intent of forecasting prices for different types of houses, choosing this analysis method for the following reasons:
+
+1. Degree of accuracy: 
+
+
+I apply regression analysis techniques to conduct the analysis using Microsoft Excel, enhanced with the Analysis ToolPak (ATP) add-in. I provide logical names for all variables and execute the regression analysis using a 95% confidence level.
 
 ## Findings
 
@@ -28,14 +31,17 @@ Please provide logical names for all variables. Please execute regression analys
 
 ## Stakeholder insights and actionable recommendations
 
-Please conduct an analysis of the data using the format requested in the syllabus of Findings – Conclusions – Recommendations – References. Please support commentary using research citations. Please provide insight into the data by interpreting the data to show what it means for the various stakeholders involved. Typical stakeholder examples for real estate include homeowners, real estate agents, house buyers, building contractors, building related government agencies, and so forth. It is especially important to get recommendations on how to maximize house value for purposes of the real estate company for which you work.
+I provide insights by interpreting the data to show what it means for the various business stakeholders involved, and provide recommendations on how to maximize house value for purposes of Amce Realty.
 
 Acme Realtors:
 1.	Establish a strong brand identity that emphasizes luxury and exclusivity. Use high-quality marketing materials and focus on networking with high-end buyers and sellers.
 2.	Use technology to reach a wider audience and showcase properties in innovative ways. This can include 3D virtual tours, social media advertising, and targeted email campaigns.
 3.	Build relationships with realtors, building contractors, and government agencies to stay informed about market trends and regulations. This can help you to provide better service to your clients.
 
-Homeowners:
+### Homeowners
+
+
+
 1.	Adding an additional bathroom can significantly increase the value of a house, particularly in upscale neighborhoods like Hillsborough.
 2.	Invest in high-end fixtures and finishes for the bathrooms. Consider features like heated floors, jetted tubs, and smart technology.
 3.	Regular cleaning and maintenance can prevent damage and ensure that the bathrooms remain in top condition.
