@@ -88,4 +88,9 @@ Acme Realtors:
 
 Because only one factor is statistically significant (number of bathrooms), additional internal variables, such as parking space size, number of in-built appliances, and number of storage units (such as closets), along with external variables, such as interest rates, could be analyzed to improve accuracy of the causal analysis results and help Acme know what else affects house prices.
 
+## References
+
+Dataset obtained from: http://www.stephansorger.com/
+
+Oikarinen, E., & Hoesli, M. (2008). Determinants of house prices: A quantile regression approach. Journal of European Real Estate Research, 1(3), 161-179. doi: 10.1108/17539260810926397
 
