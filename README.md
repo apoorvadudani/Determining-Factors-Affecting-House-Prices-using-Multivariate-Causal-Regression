@@ -1,4 +1,4 @@
-# Determining-Factors-Affecting-House-Prices-using-Multivariate-Causal-Regression
+# Forecasting-House-Prices-using-Multivariate-Causal-Regression
 
 ## Background
 
