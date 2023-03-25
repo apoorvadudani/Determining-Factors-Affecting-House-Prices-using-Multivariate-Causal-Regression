@@ -10,35 +10,39 @@ The home sales detail data shows house characteristics of homes sold in Hillsbor
 
 ## Data analysis model selection and setup
 
+I apply time-series and causal regression analysis techniques to conduct the analysis using Microsoft Excel, enhanced with the Analysis ToolPak (ATP) add-in.
+
 I first forecast the price for a house size of 4000 sq. ft., a lot size of 22000 sq. ft., 4 bedrooms, and 5 bathrooms using time-series analysis. I define the price forecast equation relating Price, House Size, Lot Size, Bedrooms, and Bathrooms as follows: Intercept+(B18*A25)+(B19*B25)+(B20*C25)+(B21*D25)
 
-I build a multivariate causal regression to understand the variables that are important in determining sales prices, with the intent of forecasting prices for different types of houses, choosing this analysis method for the following reasons:
+I then build a multivariate causal regression to understand the variables that are important in determining sales prices, with the intent of forecasting prices for different types of houses. choosing this analysis method for the following reasons:
 
 1. Degree of accuracy: 
 
 
-I apply regression analysis techniques to conduct the analysis using Microsoft Excel, enhanced with the Analysis ToolPak (ATP) add-in. I provide logical names for all variables and execute the regression analysis using a 95% confidence level.
+I provide logical names for all variables and execute the regression analysis using a 95% confidence level.
 
 ## Findings
 
 <img width="476" alt="image" src="https://user-images.githubusercontent.com/113878059/227742404-46c17bc3-ebc9-4d16-a0ad-1a63c6f0a9a2.png">
 
-Y-intercept value: -1.218314642
-X1 (House Size) coefficient: 0.36793450
-X2 (Lot Size) coefficient: 0.015595172
-X3 (Bedrooms) coefficient: 0.119113849
-X4 (Bathrooms) coefficient: 0.341296528
-Price forecast (plugging in the above values into the aforementioned formula): $2.78 million
+- Y-intercept value: -1.218314642
+- X1 (House Size) coefficient: 0.36793450
+- X2 (Lot Size) coefficient: 0.015595172
+- X3 (Bedrooms) coefficient: 0.119113849
+- X4 (Bathrooms) coefficient: 0.341296528
+- Price forecast amount (found by plugging in the above values into the aforementioned formula): $2.78 million
 
 ![image](https://user-images.githubusercontent.com/113878059/227744259-92dfdc2b-7f8d-4ca5-80a4-06d6b4fac272.png)
 
 ## Interpreting results
 
+In the multivariate causal regression, I observe that the coefficient for House Size (0.36) and number of bathrooms (0.34) is much larger than that for Lot Size (0.015). This means that house size and the number of bathrooms have the highest correlations with house prices. However, because the P-value is less than 5% for the number of bathrooms, I can assume that the proposed model has a statistically significant contribution and is not just the results of random data, and that leads to the number of bathrooms being the best indicator of house value
 
+Based on the much larger coefficient value for number of bathrooms over Lot Size and number of bedrooms, as well as only the p-value for number of bathrooms being statistically significant, I thus infer that the number of bathrooms is the strongest factor in determining house prices, more so than even the house size.
 
 ## Literature review
 
-
+According to Oikarinen & Hoesli (2008), additional bathrooms have a much higher value-added impact in higher-priced homes (like those in upscale Hillsborough, CA) than in lower-priced ones. This supports our finding.
 
 ## Stakeholder insights and actionable recommendations
 
