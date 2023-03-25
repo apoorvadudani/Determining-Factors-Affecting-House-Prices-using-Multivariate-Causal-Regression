@@ -2,7 +2,7 @@
 
 ## Background
 
-Acme Realty is a real estate company specializing in listings in upscale Hillsborough, California. I analyze their real estate data with the intent of understanding the variables that explain sales amounts. I collect a set of home sales detail data below (also found in the "Acme Realty dataset.csv" file in this repository). 
+Damian Realty is a fictional real estate company specializing in listings in upscale Hillsborough, California. I analyze their real estate data with the intent of understanding the variables that explain sales amounts. I collect a set of home sales detail data below (also found in the "Acme Realty dataset.csv" file in this repository). 
 
 ![image](https://user-images.githubusercontent.com/113878059/227744412-5ec7dc73-77de-4134-bed8-be8a7e37dde6.png)
  
@@ -46,12 +46,17 @@ According to Oikarinen & Hoesli (2008), additional bathrooms have a much higher 
 
 I provide insights by interpreting the data to show what it means for the various business stakeholders involved, and provide recommendations on how to maximize house value for purposes of Amce Realty.
 
-Acme Realtors:
+### Damian Realtors
+
+![image](https://user-images.githubusercontent.com/113878059/227745044-5dd564eb-90f0-48fa-97fa-9ad9b02a7da4.png)
+
 1.	Establish a strong brand identity that emphasizes luxury and exclusivity. Use high-quality marketing materials and focus on networking with high-end buyers and sellers.
 2.	Use technology to reach a wider audience and showcase properties in innovative ways. This can include 3D virtual tours, social media advertising, and targeted email campaigns.
 3.	Build relationships with realtors, building contractors, and government agencies to stay informed about market trends and regulations. This can help you to provide better service to your clients.
 
 ### Homeowners
+
+![image](https://user-images.githubusercontent.com/113878059/227745063-1ae40fbc-8b91-4f2d-8aa9-d9ed4284554f.png)
 
 1.	Adding an additional bathroom can significantly increase the value of a house, particularly in upscale neighborhoods like Hillsborough.
 2.	Invest in high-end fixtures and finishes for the bathrooms. Consider features like heated floors, jetted tubs, and smart technology.
@@ -59,11 +64,15 @@ Acme Realtors:
 
 ### Real Estate Agents
 
+![image](https://user-images.githubusercontent.com/113878059/227745078-e25a5c05-9ea2-4603-b138-e94e39123406.png)
+
 1.	Emphasize the number and quality of bathrooms in marketing materials and showings. Use professional photos to showcase the bathrooms in the best possible light.
 2.	Stay informed about local market trends and preferences when it comes to bathroom features and styles. This can help you to provide expert advice to homeowners on how to maximize their house value.
 3.	Suggest upgrades to homeowners that will increase the value of their bathrooms, such as adding high-end finishes or expanding the space.
 
 ### House Buyers
+
+![image](https://user-images.githubusercontent.com/113878059/227745107-077cdbc9-6108-4091-be92-230c2b115298.png)
 
 1.	Pay attention to the number of bathrooms when evaluating potential houses to buy. Houses with more bathrooms generally command higher prices, so consider this when making an offer.
 2.	Look for houses with bathrooms that feature high-quality fixtures and finishes, such as granite countertops or high-end plumbing fixtures.
@@ -71,26 +80,32 @@ Acme Realtors:
 
 ### Building Contractors
 
+![image](https://user-images.githubusercontent.com/113878059/227745155-2b9c1342-be8d-44af-ab13-9d3f61ad8f51.png)
+
 1.	Focus on using high-quality materials and workmanship when building or renovating bathrooms. This can increase the value of the house and ensure customer satisfaction.
 2.	Stay informed about the latest bathroom trends and preferences in the market. This can help you to offer innovative designs and features that will appeal to potential buyers.
 
 ### Building-Related Government Agencies
+
+![image](https://user-images.githubusercontent.com/113878059/227745133-d6be4e30-0666-4c3d-84a5-3299304f8c6c.png)
 
 1.	Offer incentives or tax breaks to homeowners who upgrade their bathrooms to more energy-efficient or high-quality features. This can promote sustainability and increase the value of the house.
 2.	Set and enforce building standards that encourage the use of high-quality materials and workmanship when building or renovating bathrooms.
 
 ### House Sellers
 
+![image](https://user-images.githubusercontent.com/113878059/227745146-18899cb3-e8bc-4b4d-a69a-e031a846d13b.png)
+
 1.	Price the house appropriately based on the number and quality of bathrooms. Use market research and data to determine a fair and competitive price.
 2.	Use professional photos and detailed descriptions to highlight the bathrooms in the house. Emphasize the number and quality of bathrooms in marketing materials and showings.
 
 ### Limitations of and recommended improvements to the data model
 
-Because only one factor is statistically significant (number of bathrooms), additional internal variables, such as parking space size, number of in-built appliances, and number of storage units (such as closets), along with external variables, such as interest rates, could be analyzed to improve accuracy of the causal analysis results and help Acme know what else affects house prices.
+Because only one factor is statistically significant (number of bathrooms), additional internal variables, such as parking space size, number of in-built appliances, and number of storage units (such as closets), along with external variables, such as interest rates, could be analyzed to improve accuracy of the causal analysis results and help Damian Realty know what else affects house prices.
 
 ## References
 
-Dataset obtained from: http://www.stephansorger.com/
+Dataset obtained from: https://www.zillow.com/research/
 
 Oikarinen, E., & Hoesli, M. (2008). Determinants of house prices: A quantile regression approach. Journal of European Real Estate Research, 1(3), 161-179. doi: 10.1108/17539260810926397
 
