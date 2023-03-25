@@ -2,11 +2,11 @@
 
 ## Background
 
-Acme Realty is a real estate company specializing in listings in upscale Hillsborough, California. I analyze their real estate data with the intent of understanding the variables that explain sales amounts. I collect a set of home sales detail data (found in the "Acme Realty dataset.csv" file in this repository), detailing house characteristics of properties which have sold recently. 
+Acme Realty is a real estate company specializing in listings in upscale Hillsborough, California. I analyze their real estate data with the intent of understanding the variables that explain sales amounts. I collect a set of home sales detail data (found in the "Acme Realty dataset.csv" file in this repository). 
  
 The home sales detail data shows house characteristics of homes sold in Hillsborough, CA during the time period of 2008-2011, based on data from online real estate website Zillow. The home sales detail data includes the variables House, Price ($M), House (K sf), Lot (K sf), Bedrooms, and Bathrooms. The House column shows the house address for each house sold, with house numbers replacing actual house addresses for privacy reasons. Price ($M) shows the sales price for each house in millions of US dollars. House (K sf) shows the size of the interior of the house in thousands of square feet. Lot (K sf) shows the size of the building lot in thousands of square feet. Bedrooms shows the total number of bedrooms. Bathrooms shows the total number of bathrooms.
 
-## Data analysis model selection
+## Data analysis model selection and setup
 
 I build a multivariate causal regression to understand the variables that are important in determining sales prices, with the intent of forecasting prices for different types of houses.
 
@@ -16,13 +16,17 @@ Please provide logical names for all variables. Please execute regression analys
 
 ## Findings
 
+<img width="366" alt="image" src="https://user-images.githubusercontent.com/113878059/227742370-a1ba75c9-f6fb-4d7d-8aba-157abb81cbb3.png">
+
 ## Interpreting results
+
+
 
 ## Literature review
 
 
 
-## Stakeholder interpretations and actionable recommendations
+## Stakeholder insights and actionable recommendations
 
 Please conduct an analysis of the data using the format requested in the syllabus of Findings – Conclusions – Recommendations – References. Please support commentary using research citations. Please provide insight into the data by interpreting the data to show what it means for the various stakeholders involved. Typical stakeholder examples for real estate include homeowners, real estate agents, house buyers, building contractors, building related government agencies, and so forth. It is especially important to get recommendations on how to maximize house value for purposes of the real estate company for which you work.
 
