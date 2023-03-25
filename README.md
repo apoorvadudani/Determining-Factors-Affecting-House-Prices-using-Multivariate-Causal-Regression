@@ -16,7 +16,7 @@ Please provide logical names for all variables. Please execute regression analys
 
 ## Findings
 
-<img width="366" alt="image" src="https://user-images.githubusercontent.com/113878059/227742370-a1ba75c9-f6fb-4d7d-8aba-157abb81cbb3.png">
+<img width="476" alt="image" src="https://user-images.githubusercontent.com/113878059/227742404-46c17bc3-ebc9-4d16-a0ad-1a63c6f0a9a2.png">
 
 ## Interpreting results
 
