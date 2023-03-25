@@ -32,8 +32,6 @@ I provide logical names for all variables and execute the regression analysis us
 - X4 (Bathrooms) coefficient: 0.341296528
 - Price forecast amount (found by plugging in the above values into the aforementioned formula): $2.78 million
 
-![image](https://user-images.githubusercontent.com/113878059/227744259-92dfdc2b-7f8d-4ca5-80a4-06d6b4fac272.png)
-
 ## Interpreting results
 
 In the multivariate causal regression, I observe that the coefficient for House Size (0.36) and number of bathrooms (0.34) is much larger than that for Lot Size (0.015). This means that house size and the number of bathrooms have the highest correlations with house prices. However, because the P-value is less than 5% for the number of bathrooms, I can assume that the proposed model has a statistically significant contribution and is not just the results of random data, and that leads to the number of bathrooms being the best indicator of house value
@@ -54,8 +52,6 @@ Acme Realtors:
 3.	Build relationships with realtors, building contractors, and government agencies to stay informed about market trends and regulations. This can help you to provide better service to your clients.
 
 ### Homeowners
-
-
 
 1.	Adding an additional bathroom can significantly increase the value of a house, particularly in upscale neighborhoods like Hillsborough.
 2.	Invest in high-end fixtures and finishes for the bathrooms. Consider features like heated floors, jetted tubs, and smart technology.
