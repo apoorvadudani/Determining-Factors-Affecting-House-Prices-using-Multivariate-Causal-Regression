@@ -14,10 +14,7 @@ I apply time-series and causal regression analysis techniques to conduct the ana
 
 I first forecast the price for a house size of 4000 sq. ft., a lot size of 22000 sq. ft., 4 bedrooms, and 5 bathrooms using time-series analysis. I define the price forecast equation relating Price, House Size, Lot Size, Bedrooms, and Bathrooms as follows: Intercept + (B18 * A25) + (B19 * B25) + (B20 * C25) +(B21 * D25)
 
-I then build a multivariate causal regression to understand the variables that are important in determining sales prices, with the intent of forecasting prices for different types of houses. choosing this analysis method for the following reasons:
-
-1. Degree of accuracy: 
-
+I then build a multivariate causal regression to understand the variables that are important in determining sales prices, with the intent of forecasting prices for different types of houses. I chose causal analysis because it holds greater accuracy than time-series forecasting in the long run. The underlying factors driving causal analysis last long after the trends affecting time-series forecasting have dissipated.
 
 I provide logical names for all variables and execute the regression analysis using a 95% confidence level.
 
