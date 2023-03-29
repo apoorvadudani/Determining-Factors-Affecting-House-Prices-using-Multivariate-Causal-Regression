@@ -31,7 +31,7 @@ I provide logical names for all variables and execute the regression analysis us
 
 ## Interpreting results
 
-In the multivariate causal regression, I observe that the coefficient for House Size (0.36) and number of bathrooms (0.34) is much larger than that for Lot Size (0.015). This means that house size and the number of bathrooms have the highest correlations with house prices. However, because the P-value is less than 5% for the number of bathrooms, I can assume that the proposed model has a statistically significant contribution and is not just the results of random data, and that leads to the number of bathrooms being the best indicator of house value
+In the multivariate causal regression, I observe that the coefficient for House Size (0.36) and number of bathrooms (0.34) is much larger than that for Lot Size (0.015). This means that house size and the number of bathrooms have the highest Pearson's correlations with house prices. However, because the P-value is less than 5% for the number of bathrooms, I can assume that the proposed model has a statistically significant contribution and is not just the results of random data, and that leads to the number of bathrooms being the best indicator of house value
 
 Based on the much larger coefficient value for number of bathrooms over Lot Size and number of bedrooms, as well as only the p-value for number of bathrooms being statistically significant, I thus infer that the number of bathrooms is the strongest factor in determining house prices, more so than even the house size.
 
